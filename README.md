@@ -63,7 +63,7 @@ local dropdownvar = b:Dropdown("Example",table,function(contents)
     print(contents)
 end)
 ```
-2. Refrash it using the function
+2. Refresh it using the function
 ```lua
 dropdownvar:Refresh(table)
 ```
