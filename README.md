@@ -2,6 +2,7 @@
 <p>I did not create this UILib</p>
 <p>Thanks Akia on V3rmillion for making the post</p>
 <p>https://v3rmillion.net/showthread.php?tid=1040650</p>
+<p>Scroll down to find directions of refreshing and global variables</p>
 
 # Wally V3 Code
 ```lua
@@ -19,7 +20,7 @@ b:Label("Pretty Useless NGL",{
 }) 
 
 b:Button("Button",function()
-    print("Elym Winning")
+    print("Skid")
 end)
 
 b:Toggle("Toggle",function(bool)
@@ -53,25 +54,44 @@ end)
 
 b:DestroyGui()
 
---[[
-How to refresh a dropdown:
-1)Create the dropdown and save it in a variable
-local yourvariable = b:Dropdown("Hi",yourtable,function(a)
-    print(a)
+```
+# How to refresh a dropdown
+
+1. Create the dropdown as a variable
+```lua
+local dropdownvar = b:Dropdown("Example",table,function(contents)
+    print(contents)
 end)
-2)Refresh it using the function
-yourvariable:Refresh(yourtable)
-How to refresh a label:
-1)Create your label and save it in a variable
-local yourvariable = b:Label("Pretty Useless NGL",{
-    TextSize = 25; -- Self Explaining
+```
+2. Refrash it using the function
+```lua
+dropdownvar:Refresh(table)
+```
+
+# How to refresh a label
+1. Create a label as a variabe
+```lua
+local labelvar = b:Label("Example Label",{
+    TextSize = 25; 
     TextColor = Color3.fromRGB(255,255,255);
     BgColor = Color3.fromRGB(69,69,69);
 })
-2)Refresh it using the function
-yourvariable:Refresh("Hello") It will only change the text ofc
-]]
 ```
+2. Refresh it using the function
+```lua
+labelvar:Refresh("New Label Text")
+```
+
+# How to change the menu default colors
+1. Find the type of item you want to change. In this case we will change the Button Color.
+```lua
+_G.ButtonColor
+```
+2. Change the color with the code below
+```lua
+_G.ButtonColor = Color3.fromRGB(255,255,255)
+```
+
 # Global Variables
 ```lua
 _G.MainColor
