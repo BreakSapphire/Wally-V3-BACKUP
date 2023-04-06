@@ -6,7 +6,7 @@
 
 # Wally V3 Code
 ```lua
-local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/GemstoneDev/Wally-V3-Backup/main/script/main.lua')))()
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Stevontavius/Wally-V3-Backup/main/script/main.lua')))()
 
 local w = library:CreateWindow("A") -- Creates the window
 
