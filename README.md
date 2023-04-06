@@ -1,5 +1,5 @@
 # Wally V3 Backup
-<p>I did not create this UILib</p>
+<p>UI made by Wally. (Obviously)</p>
 <p>Thanks Akia on V3rmillion for making the post</p>
 <p>https://v3rmillion.net/showthread.php?tid=1040650</p>
 <p>Scroll down to find directions of refreshing and global variables</p>
