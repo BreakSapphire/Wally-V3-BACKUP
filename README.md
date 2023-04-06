@@ -4,7 +4,7 @@
 <p>https://v3rmillion.net/showthread.php?tid=1040650</p>
 <p>Scroll down to find directions of refreshing and global variables</p>
 
-# Wally V3 Code
+# Example UI
 ```lua
 local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Stevontavius/Wally-V3-Backup/main/script/main.lua')))()
 
@@ -55,7 +55,10 @@ end)
 b:DestroyGui()
 
 ```
-# How to refresh a dropdown
+# Documentation
+<p>UI Documentation is below, cause why not.
+
+## How to refresh a dropdown
 
 1. Create the dropdown as a variable
 ```lua
@@ -68,7 +71,7 @@ end)
 dropdownvar:Refresh(table)
 ```
 
-# How to refresh a label
+## How to refresh a label
 1. Create a label as a variabe
 ```lua
 local labelvar = b:Label("Example Label",{
@@ -82,7 +85,7 @@ local labelvar = b:Label("Example Label",{
 labelvar:Refresh("New Label Text")
 ```
 
-# How to change the menu default colors
+## How to change the menu default colors
 1. Find the type of item you want to change. In this case we will change the Button Color.
 ```lua
 _G.ButtonColor
@@ -92,7 +95,7 @@ _G.ButtonColor
 _G.ButtonColor = Color3.fromRGB(255,255,255)
 ```
 
-# Global Variables
+## Global Variables
 ```lua
 _G.MainColor
 _G.SecondaryColor
